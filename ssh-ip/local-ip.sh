@@ -3,7 +3,7 @@
 #Option: 
 #1. Crond refresh: About 5 min
 
-IPFILE=$HOME/Dropbox/raspberry/iplocale
+IPFILE=$HOME/Dropbox/raspberry/ip_rasp/iplocale
 [[ -f $IPFILE ]] || echo 0.0.0.0 > $IPFILE
 
 ACTUALIP=$( networkctl status wlp2s0 | awk '/     Address: / {print $NF}')
