@@ -14,4 +14,4 @@ if [ "$ACTUALIP" != "$OLDIP" ]; then
 	echo $ACTUALIP > $IPFILE
 fi
 
-#Note: It works if you have Dropboxd process on background and you can see the actual IP on file "iplocale.txt"  
+#Note: It works if you have Dropboxd process on background , so you can see the actual IP on file "iplocale.txt"  
