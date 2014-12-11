@@ -1,5 +1,5 @@
 #!/bin/bash
-IPFILE=$HOME/Dropbox/raspberry/ipexternal
+IPFILE=$HOME/Dropbox/raspberry/ip_rasp/ipexternal
 [[ -f $IPFILE ]] || echo 0.0.0.0 > $IPFILE
 
 
